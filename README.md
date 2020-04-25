@@ -5,7 +5,7 @@ Sample Expo (react-native) application which uses Lottie library
 ## To test
 
 ```sh
-git clone https://github.com/maxgfr/expo-svg.git
+git clone https://github.com/maxgfr/expo-lottie.git
 cd expo-svg
 expo install
 expo start
