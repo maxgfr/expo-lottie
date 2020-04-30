@@ -20,7 +20,7 @@ export default function App() {
             width: 400,
             height: 400,
           }}
-          source={require('./assets/anim.json')}
+          source={require('./assets/anim_V2.json')}
         />
     </View>
   );

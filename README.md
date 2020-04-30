@@ -2,6 +2,9 @@
 
 Sample Expo (react-native) application which uses Lottie library
 
+> ⚠️ `anim_V3.json` crash on android.
+> https://github.com/expo/expo/issues/8011
+
 ## To test
 
 ```sh
@@ -10,6 +13,7 @@ cd expo-lottie
 expo install
 expo start
 ```
+
 ## Screenshot
 
 <div align="center">
