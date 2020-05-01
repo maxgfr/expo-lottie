@@ -2,8 +2,7 @@
 
 Sample Expo (react-native) application which uses Lottie library
 
-> ⚠️ `anim_V3.json` crash on android.
-> https://github.com/expo/expo/issues/8011
+> ⚠️ `anim_V3.json` crash on android. Refer to : https://github.com/expo/expo/issues/8011
 
 ## To test
 
