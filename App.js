@@ -1,20 +1,22 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { StyleSheet, View } from 'react-native';
 import LottieView from "lottie-react-native";
 
 export default function App() {
 
+  const [anim, setAnim] = useState(null);
+
   useEffect(() => {
-    if (this.animation) {
-      this.animation.play();
+    if (anim) {
+      anim.play();
     }
-  }, [])
+  }, [anim])
 
   return (
     <View style={styles.container}>
       <LottieView
           ref={animation => {
-            this.animation = animation;
+            setAnim(animation);
           }}
           style={{
             width: 400,
