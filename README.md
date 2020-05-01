@@ -11,6 +11,7 @@ git clone https://github.com/maxgfr/expo-lottie.git
 cd expo-lottie
 expo install
 expo start
+/Users/maxime/Library/Android/sdk/emulator/emulator -avd Pixel_3_API_29 # run avd
 ```
 
 ## Screenshot
